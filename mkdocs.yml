@@ -1,1 +1,45 @@
-site_name: My Docs
+site_name: TOA
+site_url: https://olivierspoor.github.io/toa
+
+site_author: Olivier Spoor
+
+repo_url: https://github.com/olivierspoor/toa
+edit_uri: blob/main/docs/
+
+
+nav:
+  - Home: index.md
+  - Arduino: arduino.md
+  - Raspberry Pi: raspberry-pi.md
+  - Biologie: biologie.md
+
+# nav:
+#   - Section:
+#     - section/index.md 
+#     - Page 1: section/page-1.md
+#     ...
+#     - Page n: section/page-n.md
+
+
+theme:
+  name: material
+  language: nl
+  features:
+    - navigation.tabs
+  palette:
+    primary: brown
+    accent: amber
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/olivierspoor
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/olivierspoor
