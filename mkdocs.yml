@@ -10,20 +10,22 @@ edit_uri: blob/main/docs/
 nav:
   - Home: index.md
   - Arduino: 
-    - arduino.md
-    # - Page 1: arduino/page-1.md
+    - arduino/index.md
     - Drukknop: arduino/drukknop.md
     - LCD met i2c: arduino/lcd_i2c.md
     - RGB-LED: arduino/rgb_led.md
 
-  - Raspberry Pi: raspberry-pi.md
-  - Biologie: biologie.md
+  - Raspberry Pi:
+    - raspberrypi/index.md
+  - Biologie:
+    - biologie/index.md
 
 theme:
   name: material
   language: nl
   features:
     - navigation.tabs
+    - navigation.indexes
   palette:
     primary: brown
     accent: amber
