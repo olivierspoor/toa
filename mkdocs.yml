@@ -19,9 +19,13 @@ nav:
     - raspberrypi/index.md
   - Biologie:
     - biologie/index.md
+    - Biologisch tekenen: biologie/biologisch_tekenen.md
 
 theme:
   name: material
+  icon:
+    logo: material/library-shelves
+
   language: nl
   features:
     - navigation.tabs
