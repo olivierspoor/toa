@@ -2,7 +2,7 @@
 
 Het is nu tijd voor een opdracht. Maak een eigen tekentje en laat deze een rondje langs de rand van het scherm lopen. 
 
-![Schermposities](/docs/assets/lcd/schermposities.png)
+![Schermposities](../../assets/lcd/schermposities.png)
 
 Eisen:
 - Het tekentje maakt een vloeiende beweging (blijft niet in de hoeken 'hangen'). 

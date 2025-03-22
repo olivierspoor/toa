@@ -62,7 +62,7 @@ byte smiley[8] ={
 Het begint met een datatype (*byte*) en variabele naam (*smiley*). Daarna wordt feitelijk het karakter pixel voor pixel weergegeven. Deze bestaat uit 8 regels van 5 pixels.
 Een `1` zet de pixel aan en een `0` is uit. Hieronder zie je links hoe een karakter-vakje is ingedeeld, en rechts hoe de smiley eruit komt de zien.
 
-![smiley](/docs/assets/lcd/smiley.png)
+![smiley](../../assets/lcd/smiley.png)
 
 Dit is echter nog niet genoeg om de smiley daadwerkelijk op het scherm te plaatsen. 
 

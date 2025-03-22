@@ -2,7 +2,7 @@
 
 I2C (*Inter-Integrated Circuit*) is een methode voor seriële datacommunicatie met een breed scala aan toepassingen. Het is mogelijk om een LCD-scherm via een speciale I2C-adapter aan te sluiten op een Arduino. Het grote voordeel hiervan is dat er minder kabels nodig zijn. 
 
-![I2C](/docs/assets/lcd/i2c.jpg)
+![I2C](../../assets/lcd/i2c.jpg)
 
 ## Aansluiten
 
@@ -15,11 +15,11 @@ Deze adapter heeft slechts vier aansluitingen:
 
 Zie de blauwe pijl op de afbeelding hieronder voor de SDA en SCL ingangen op de Arduino.
 
-![SDA_SCL](/docs/assets/lcd/sda_scl.png)
+![SDA_SCL](../../assets/lcd/sda_scl.png)
 
 Er zitten 16 pinnen aan het LCD-scherm en 16 pinnen aan de I2C-adapter. De volgorde is hier belangrijk. Er staan echter weinig herkennigstekens op de adapter. Kijk dus goed naar de afbeelding hieronder om te zien hoe de twee op het breadboard aangesloten moeten worden.
 
-![LCD_I2C](/docs/assets/lcd/aansluiting.jpg)
+![LCD_I2C](../../assets/lcd/aansluiting.jpg)
 
 ## Bibliotheek
 
@@ -33,7 +33,7 @@ Of via het menu:
 
 Hier kun je zoeken naar `pcf8574 hertel`. Je vindt dan de [volgende bibliotheek](https://docs.arduino.cc/libraries/liquidcrystal_pcf8574/). 
 
-![Bibliotheek_Hertel](/docs/assets/lcd/hertel_bibliotheek.png)
+![Bibliotheek_Hertel](../../assets/lcd/hertel_bibliotheek.png)
 
 Klik vervolgens op _install_. Hierna is de bibliotheek geïnstalleerd en klaar om gebruikt te worden.
 
